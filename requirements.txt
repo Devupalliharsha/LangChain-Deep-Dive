@@ -1,5 +1,3 @@
-# LangChain Deep Technical Tutorial — Requirements
-# Install with: pip install -r requirements.txt
 
 # Core LangChain packages
 langchain>=0.3.0
