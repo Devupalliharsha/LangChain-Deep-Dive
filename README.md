@@ -55,7 +55,7 @@ clone my git and run it manually
 ## 📝 Blog Post
 
 Read the full technical blog post on Medium:  
-**[My Deep Dive into LangChain: From Zero to Building LLM Apps] : **
+**[My Deep Dive into LangChain: From Zero to Building LLM Apps] :https://medium.com/@devupalliharsha/my-deep-dive-into-langchain-from-zero-to-building-llm-apps-1aceeaa1a9be **
 
 ---
 
