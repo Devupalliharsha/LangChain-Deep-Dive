@@ -1,22 +1,29 @@
+# LangChain Internship Assignment – Innomatics Research Labs, Feb 2026
+# Author: Harsha Devupalli
+#
+# Install all at once:
+#   pip install -r requirements.txt
+#
+# Or on Google Colab:
+#   !pip install -r requirements.txt
 
-# Core LangChain packages
-langchain>=0.3.0
+# ── LangChain Core ──────────────────────────────────────────────────
 langchain-core>=0.3.0
 langchain-community>=0.3.0
 langchain-groq>=0.2.0
-
-# Embeddings (free, runs locally)
-sentence-transformers>=3.0.0
-
-# Vector store (local, no server needed)
-chromadb>=0.5.0
-
-# LangChain Hub (for pre-built agent prompts)
 langchainhub>=0.1.21
 
-# Jupyter support (for running locally)
-jupyter>=1.0.0
-ipykernel>=6.0.0
+# ── Vector Store ────────────────────────────────────────────────────
+chromadb>=0.5.0
 
-# Utilities
-python-dotenv>=1.0.0
+# ── Embeddings (free local model) ───────────────────────────────────
+sentence-transformers>=3.0.0
+
+# ── Text splitting (included in langchain, but pinning explicitly) ──
+langchain-text-splitters>=0.3.0
+
+# ── Standard library (no install needed, but listed for clarity) ───
+# getpass  ← built-in
+# os       ← built-in
+# datetime ← built-in
+# math     ← built-in
